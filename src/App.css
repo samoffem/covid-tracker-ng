@@ -1,0 +1,47 @@
+.App {
+  background-color:  #15202b;
+  min-height: 100vh;
+  color: white;
+}
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.loader{
+  text-align: center;
+ 
+}
+
+.stats-summary{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 350px));
+  gap: 1rem;
+}
+
+.item{
+  background-color: #192734;
+  padding: 1rem;
+}
+.confirmed-cases .number{
+  color: rgb(236, 35, 236);
+}
+.active-cases .number{
+  color: #f2c94c;
+}
+.tested .number{
+  color: #2f80ed;
+}
+.discharged .number{
+  color: #219653;
+}
+.death .number{
+  color: #ee6352;
+}
+.states-data{
+  margin-top: 16px;
+}
+
+td, th{
+  padding: .5rem;
+  border: 1px solid gray;
+}
